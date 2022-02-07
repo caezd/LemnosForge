@@ -78,7 +78,7 @@ Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous p
 ```
 
 
-**displayOnLoad** ``string`` ``'block'``
+**displayOnLoad** ``string`` ``'block' par défaut``
 : Permet d'appliquer un style ``display`` particulier sur le profil une fois qu'il sera chargé dans le volet.
 
 **afterLoad** ``function`` ``arguments: aside, overlay``
