@@ -16,7 +16,7 @@ Wombat est une visionneuse de profil qui permet de charger et d'ouvrir le profil
 <p>Pour commencer, nous ajouterons le script dans le template <code>overall_footer_end</code>, juste avant la fermeture de la balise <code>&lt;/body&gt;</code>.</p>
 
 
-```diff html
+```html diff
 <!-- Wombat.js -->
 <script src="https://cdn.jsdelivr.net/gh/caezd/switcheroo@master/wombat.js"></script>
 
