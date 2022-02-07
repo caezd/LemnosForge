@@ -20,7 +20,7 @@ Wombat est une visionneuse de profil qui permet de charger et d'ouvrir le profil
 <!-- Wombat.js -->
 <script src="https://cdn.jsdelivr.net/gh/caezd/switcheroo@master/wombat.js"></script>
 
-<!-- Script qui permet d'initialiser le plugin -->
++<!-- Script qui permet d'initialiser le plugin -->
 <script>
 (function() {
      new Wombat();
