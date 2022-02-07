@@ -16,11 +16,11 @@ Wombat est une visionneuse de profil qui permet de charger et d'ouvrir le profil
 <p>Pour commencer, nous ajouterons le script dans le template <code>overall_footer_end</code>, juste avant la fermeture de la balise <code>&lt;/body&gt;</code>.</p>
 
 
-```htmldiff
+```html
 <!-- Wombat.js -->
 <script src="https://cdn.jsdelivr.net/gh/caezd/switcheroo@master/wombat.js"></script>
 
-+<!-- Script qui permet d'initialiser le plugin -->
+<!-- Script qui permet d'initialiser le plugin -->
 <script>
 (function() {
      new Wombat();
@@ -66,10 +66,11 @@ Le CSS doit être ajouté sur votre forum, comme n'importe quel autre CSS. Il pe
  opacity: 1;
  transform: translateX(0);
  visibility: visible;
-}```
+}
+```
 
-<h2>Options</h2>
-<p>Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous permet un contrôle un peu plus pointu. Elles doivent être déclarées en même temps que l'initialisation du script, qu'on a placé plus haut dans le template <code>overall_footer_end</code>, comme ceci :</p>
+## Options
+Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous permet un contrôle un peu plus pointu. Elles doivent être déclarées en même temps que l'initialisation du script, qu'on a placé plus haut dans le template ``overall_footer_end``, comme ceci :
 ```html
 <script>
 (function() {
@@ -77,7 +78,8 @@ Le CSS doit être ajouté sur votre forum, comme n'importe quel autre CSS. Il pe
          option: valeur
      });
 })();
-</script>```
+</script>
+```
 
 <dl>
 <dt>[b]displayOnLoad[/b] <code>string</code> <code>'block'</code></dt>
