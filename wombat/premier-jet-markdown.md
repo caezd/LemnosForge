@@ -9,8 +9,8 @@ Wombat est une visionneuse de profil qui permet de charger et d'ouvrir le profil
 ## Installation
 Pour installer la formule "de base" de Wombat, il faudra simplement modifier les templates ``overall_footer_end`` et ``profile_view_body``, ainsi qu'ajouter un bout de CSS.
 
+### HTML
 Pour commencer, nous ajouterons le script dans le template ``overall_footer_end``, juste avant la fermeture de la balise ``</body>``.
-
 ```html
 <!-- Wombat.js -->
 <script src="https://cdn.jsdelivr.net/gh/caezd/switcheroo@master/wombat.js"></script>
@@ -23,6 +23,7 @@ Pour commencer, nous ajouterons le script dans le template ``overall_footer_end`
 </script>
 ```
 
+### CSS
 Le CSS doit être ajouté sur votre forum, comme n'importe quel autre CSS. Il peut être modifié facilement pour s'adapter au design de votre forum.
 
 ```css
