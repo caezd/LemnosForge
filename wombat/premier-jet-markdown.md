@@ -3,7 +3,7 @@
 
 ## Description
 
-++Wombat++ est une visionneuse de profil qui permet de charger et d'ouvrir le profil des membres directement sur la page active, sans la recharger ou en changer, dans un volet indépendant ++(ou un drawer, comme on les appelle)++.
+++Wombat++ est une visionneuse de profil qui ==permet de charger== et d'ouvrir le profil des membres directement sur la page active, sans la recharger ou en changer, dans un volet indépendant ++(ou un drawer, comme on les appelle)++.
 
 ## Prérequis
 <p>Wombat ne fonctionne pas avec l'affichage des profils avancés de ForumActif.</p>
