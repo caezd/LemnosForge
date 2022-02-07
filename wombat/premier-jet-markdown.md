@@ -84,6 +84,7 @@ Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous p
 
 **displayOnLoad** ``string`` ``'block'``
 : Permet d'appliquer un style ``display`` particulier sur le profil une fois qu'il sera chargé dans le volet.
+
 **afterLoad** ``function`` ``arguments: aside, overlay``
 : Cette fonction sera appelée en *callback*une fois le profil chargé dans le volet vous permettant de réutiliser un script pour, par exemple, modifier la structure des champs de profils, appliquer une couleur de groupe quelque part, etc. ++Le premier argument de la fonction est un HTMLElement ciblant le volet dans lequel le profil est ajouté. Le deuxième argument cible directement l'obfuscateur derrière, au besoin.++
   ```js
