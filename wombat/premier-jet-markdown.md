@@ -81,23 +81,20 @@ Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous p
 </script>
 ```
 
-<dl>
-<dt>[b]displayOnLoad[/b] <code>string</code> <code>'block'</code></dt>
-<dd>Permet <del><em>d'appliquer un style</em></del> <code>display</code> particulier sur le profil une fois qu'il sera chargé dans le volet.</dd>
-<dt>[b]afterLoad[/b] <code>function</code> <code>arguments: aside, overlay</code></dt>
-<dd>Cette fonction sera appelée en <i>callback</i> une fois le profil chargé dans le volet vous permettant de réutiliser un script pour, par exemple, modifier la structure des champs de profils, appliquer une couleur de groupe quelque part, etc. <ins>Le premier argument de la fonction est un HTMLElement ciblant le volet dans lequel le profil est ajouté. Le deuxième argument cible directement l'obfuscateur derrière, au besoin.</ins>
-```js
-/* exemple */
-new Wombat({
-   afterLoad: function(aside, overlay) {
-       var color = aside.querySelector('#rang').style.color;
-       aside.querySelector('.rank-header).style.backgroundColor = color;
-   }
-});
-```
-</dd>
-<dt>[b]overlayClass[/b] <code>string</code> <code>'wombat-overlay'</code></dt>
-<dd></dd>
-<dt>[b]drawerClass[/b] <code>string</code> <code>'wombat-aside'</code></dt>
-<dd></dd>
-</dl>
+
+**displayOnLoad** ``string`` ``'block'``
+: Permet d'appliquer un style ``display`` particulier sur le profil une fois qu'il sera chargé dans le volet.</dd>
+**afterLoad** <code>function</code> <code>arguments: aside, overlay</code></dt>
+: Cette fonction sera appelée en <i>callback</i> une fois le profil chargé dans le volet vous permettant de réutiliser un script pour, par exemple, modifier la structure des champs de profils, appliquer une couleur de groupe quelque part, etc. <ins>Le premier argument de la fonction est un HTMLElement ciblant le volet dans lequel le profil est ajouté. Le deuxième argument cible directement l'obfuscateur derrière, au besoin.</ins>
+  ```js
+  /* exemple */
+  new Wombat({
+     afterLoad: function(aside, overlay) {
+         var color = aside.querySelector('#rang').style.color;
+         aside.querySelector('.rank-header).style.backgroundColor = color;
+     }
+  });
+  ```
+
+
+
