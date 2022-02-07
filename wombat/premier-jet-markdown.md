@@ -93,5 +93,15 @@ Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous p
   });
   ```
 
+<details><summary>CLICK ME</summary>
+<p>
 
+#### We can hide anything, even code!
+
+    ```ruby
+      puts "Hello World"
+    ```
+
+</p>
+</details>
 
