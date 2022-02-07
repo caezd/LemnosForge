@@ -90,7 +90,7 @@ Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous p
   new Wombat({
      afterLoad: function(aside, overlay) {
          var color = aside.querySelector('#rang').style.color;
-         aside.querySelector('.rank-header).style.backgroundColor = color;
+         aside.querySelector('.rank-header').style.backgroundColor = color;
      }
   });
   ```
