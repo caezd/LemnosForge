@@ -1,20 +1,15 @@
-
-#wombat #profil #javascript
-
 ## Description
 
-++Wombat++ est une visionneuse de profil qui ==permet de charger== et d'ouvrir le profil des membres directement sur la page active, sans la recharger ou en changer, dans un volet indépendant ++(ou un drawer, comme on les appelle)++.
+Wombat est une visionneuse de profil qui permet de charger et d'ouvrir le profil des membres directement sur la page active, sans la recharger ou en changer, dans un volet indépendant (ou un drawer, comme on les appelle).
 
 ## Prérequis
 <p>Wombat ne fonctionne pas avec l'affichage des profils avancés de ForumActif.</p>
-<ul class="withCheck"><li>Pour les désactiver, il faudra passer par votre panneau d'administration et naviguer jusqu'aux options générales des profils : [b]Utilisateurs & Groupes > Profils > Options générales[/b] et [url=https://i.imgur.com/uqvPrAf.png]désactiver les profils avancés[/url].</li>
++Pour les désactiver, il faudra passer par votre panneau d'administration et naviguer jusqu'aux options générales des profils : **Utilisateurs & Groupes > Profils > Options générales** et [désactiver les profils avancés](https://i.imgur.com/uqvPrAf.png).
 
-</ul>
+## Installation
+Pour installer la formule "de base" de Wombat, il faudra simplement modifier les templates ``overall_footer_end`` et ``profile_view_body``, ainsi qu'ajouter un bout de CSS.
 
-<h2>Installation</h2>
-<p>Pour installer la formule "de base" de Wombat, il faudra simplement modifier les templates <code>overall_footer_end</code> et <code>profile_view_body</code>, ainsi qu'ajouter un bout de CSS.</p>
-<p>Pour commencer, nous ajouterons le script dans le template <code>overall_footer_end</code>, juste avant la fermeture de la balise <code>&lt;/body&gt;</code>.</p>
-
+Pour commencer, nous ajouterons le script dans le template ``overall_footer_end``, juste avant la fermeture de la balise ``</body>``.
 
 ```html
 <!-- Wombat.js -->
