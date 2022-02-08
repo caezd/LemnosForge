@@ -3,6 +3,7 @@
 Wombat est une visionneuse de profil qui permet de charger et d'ouvrir le profil des membres directement sur la page active, sans la recharger ou en changer, dans un volet indépendant (ou un drawer, comme on les appelle). Il n'empêche pas les visiteurs de consulter la page standard en l'ouvrant dans un nouvel onglet.
 
 ## Prérequis
+:+1:
 
 Wombat ne fonctionne pas avec l'affichage des profils avancés de ForumActif.
 
