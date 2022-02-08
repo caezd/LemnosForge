@@ -93,6 +93,7 @@ Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous p
 
 **afterLoad** `function` `arguments: aside, overlay`
 : Cette fonction sera appelée en *callback*une fois le profil chargé dans le volet vous permettant de réutiliser un script pour, par exemple, modifier la structure des champs de profils, appliquer une couleur de groupe quelque part, etc.Le premier argument de la fonction est un HTMLElement ciblant le volet dans lequel le profil est ajouté. Le deuxième argument cible directement l'obfuscateur derrière, au besoin.
+
     ```js
       /* exemple */
       new Wombat({
@@ -108,9 +109,10 @@ Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous p
 
 **excludes** `array` `[] par défaut (vide)`
 : Il vous est possible de limiter le déclenchement de Wombat pour certains profils en utilisant un tableau de sélecteurs CSS. Il sera interprété de cette façon, grâce au pseudo-classe de négation : `a[href^="/u"]:not(${exclusions})`. Par exemple, pour empêcher Wombat sur le profil du compte fondateur, il faudrait faire comme ceci :
-```js
-  /* exemple */
-  new Wombat({
-      excludes: ['[href="/u1"]']
-  });
-```
+
+    ```js
+      /* exemple */
+      new Wombat({
+          excludes: ['[href="/u1"]']
+      });
+    ```
