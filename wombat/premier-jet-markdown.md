@@ -11,7 +11,7 @@ Wombat ne fonctionne pas avec l'affichage des profils avancés de ForumActif.
 
 ## Installation
 
-Pour installer la formule "de base" de Wombat, il faudra simplement modifier les templates `overall_footer_end` et `profile_view_body`, ainsi qu'ajouter un bout de CSS.
+Pour installer la formule "de base" de Wombat, il faudra simplement modifier les templates `général/overall_footer_end` et `profil/profile_view_body`, ainsi qu'ajouter un bout de CSS.
 
 ### HTML
 
