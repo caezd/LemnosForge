@@ -116,3 +116,9 @@ Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous p
           excludes: ['[href="/u1"]']
       });
     ```
+
+**overlayClass** `string` `'wombat-overlay' par défaut`
+: Classe CSS attribuée par défaut à l'obfuscateur de Wombat.
+
+**drawerClass** `string` `'wombat-aside' par défaut`
+: Classe CSS attribuée par défaut au panneau latéral de Wombat.
