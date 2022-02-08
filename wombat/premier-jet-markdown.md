@@ -31,16 +31,16 @@ Pour commencer, nous ajouterons le script dans le template `overall_footer_end`,
 
 Ensuite, il faudra ajouter un identifiant dans le template `profil/profile_view_body` pour spécifier quelle partie du profil sera importée dans le panneau latéral de Wombat. 
 
-Il faudra certainement planifier cette partie à l'avance, dans votre design ou dans la strructure générale dudit template. Pour ma part, j'ai opté d'épurer les profils avec seulement l'avatar du membre et ses boutons de contact.
+Il faudra certainement planifier cette partie à l'avance, dans votre design ou dans la strructure générale dudit template. Pour ma part, j'ai décidé d'épurer les profils en ne laissant que l'avatar du membre et ses boutons de contact.
 
-Notez que dans cet exemple, l'attribut `hidden` me permet juste de cacher grâce à un `display: none` ce bout de code pour les visiteurs consultant ledit profil d'une autre façon (s'il est ouvert dans un nouvel onglet, s'il est redirigé par un lien externe, etc.).
+Notez que dans cet exemple, l'attribut `hidden` me permet juste de cacher ce bout de code pour les visiteurs consultant ledit profil d'une autre façon (s'il est ouvert dans un nouvel onglet, s'il est redirigé par un lien externe, etc.).
 {.info}
 
 ```html
 <div class="panel bg1" id="wombat" hidden>
     <div class="wombat-avatar">{AVATAR_IMG}</div>
     <div class="wombat-buttons">
-	<!-- BEGIN contact_field -->
+		<!-- BEGIN contact_field -->
 		<dl id="field_id{contact_field.ID}" class="left-box details" style="width: 80%;">
 			<dt>{contact_field.LABEL}</dt> <dd>{contact_field.CONTENT}</dd>
 		</dl>
