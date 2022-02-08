@@ -29,11 +29,11 @@ Pour commencer, nous ajouterons le script dans le template `overall_footer_end`,
 </script>
 ```
 
-Ensuite, il faudra ajouter un indentifiant dans le template `profile_view_body` (sous la catégorie Profil) afin de déterminer quelle partie du template sera importée dans le panneau latéral de Wombat. 
+Ensuite, il faudra ajouter un identifiant dans le template `profil/profile_view_body` pour spécifier quelle partie du profil sera importée dans le panneau latéral de Wombat. 
 
-Il vous faudra certainement planifier cette partie à l'avance dans votre design, la styler differemment ou la minifier. Pour cet exemple, j'ai décidé d'ajouter un profil très abrégé avec seulement l'avatar du membre et ses boutons de contact à la toute fin du template.
+Il faudra certainement planifier cette partie à l'avance, dans votre design ou dans la strructure générale dudit template. Pour ma part, j'ai opté d'épurer les profils avec seulement l'avatar du membre et ses boutons de contact.
 
-L'attribut `hidden` me permet juste de cacher ce bout de code si un visiteur consulte le profil d'un membre d'une autre façon (si le profil est ouvert dans un nouvel onglet, s'il est redirigé par un lien externe, etc.).
+Notez que dans cet exemple, l'attribut `hidden` me permet juste de cacher grâce à un `display: none` ce bout de code pour les visiteurs consultant ledit profil d'une autre façon (s'il est ouvert dans un nouvel onglet, s'il est redirigé par un lien externe, etc.).
 {.info}
 
 ```html
@@ -49,9 +49,11 @@ L'attribut `hidden` me permet juste de cacher ce bout de code si un visiteur con
 </div>
 ```
 
+Seulement cette partie du profil sera affichée grâce à Wombat. Tant que l'identifiant `id="wombat"` est quelque part dans le template, tout ce qu'il contient sera chargé dans le panneau latéral.
+
 ### CSS
 
-Le CSS doit être ajouté sur votre forum, comme n'importe quel autre CSS. Il peut être modifié facilement pour s'adapter au design de votre forum.
+Pour le CSS, il doit être ajouté sur votre forum comme n'importe quel autre CSS. Voici celui que je fournis de base, libre à vous de l'adapter à votre goût :
 
 ```css
 /* obfuscator */
@@ -96,7 +98,7 @@ Le CSS doit être ajouté sur votre forum, comme n'importe quel autre CSS. Il pe
 
 ## Options
 
-Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous permet un contrôle un peu plus pointu. Elles doivent être déclarées en même temps que l'initialisation du script, qu'on a placé plus haut dans le template `overall_footer_end`, comme ceci :
+Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous permettent un contrôle un peu plus pointu. Elles doivent être déclarées en même temps que l'initialisation du script, qu'on a placé plus haut dans le template `général/overall_footer_end`, comme ceci :
 
 ```html
 <script>
@@ -127,9 +129,7 @@ Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous p
 **allowGuests** `boolean` `false par défaut`
 : Si un invité essaie de consulter le profil d'un membre, Wombat refusera tout simplement la requête pour éviter une erreur via la redirection du formulaire de connexion (pour les profils privés). Toutefois, si les invités sont autorisés à consulter les profils, vous pouvez contourner cette sécurité grâce à la valeur `true`.
 
-**excludes**
-: - type
-  - type
+**excludes** `array` `[] par défaut`
 	Il vous est possible de limiter le déclenchement de Wombat pour certains profils en utilisant un tableau de sélecteurs CSS. Il sera interprété de cette façon, grâce au pseudo-classe de négation : `a[href^="/u"]:not(${exclusions})`. Par exemple, pour empêcher Wombat sur le profil du compte fondateur, il faudrait faire comme ceci :
 
     ```js
@@ -144,5 +144,3 @@ Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous p
 
 **drawerClass** `string` `'wombat-aside' par défaut`
 : Classe CSS attribuée par défaut au panneau latéral de Wombat.
-
-@caezd
