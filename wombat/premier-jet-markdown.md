@@ -47,7 +47,7 @@ Seulement cette partie du profil sera affichée grâce à Wombat. Tant que l'ide
 
 ### CSS
 
-Pour le CSS, il doit être ajouté sur votre forum comme n'importe quel autre CSS. Voici celui que je fournis de base, libre à vous de l'adapter à votre goût :
+Pour le CSS, il doit être ajouté sur votre forum avec le reste de votre style. Voici celui que je fournis de base, libre à vous de l'adapter à votre goût :
 
 ```css
 /* obfuscator */
