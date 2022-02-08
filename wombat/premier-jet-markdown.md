@@ -11,11 +11,11 @@ Wombat ne fonctionne pas avec l'affichage des profils avancés de ForumActif.
 
 ## Installation
 
-Pour installer la formule "de base" de Wombat, il faudra simplement modifier les templates ` `overall_footer_end`  ` et `  `profile_view_body` `, ainsi qu'ajouter un bout de CSS.
+Pour installer la formule "de base" de Wombat, il faudra simplement modifier les templates `overall_footer_end` et `profile_view_body`, ainsi qu'ajouter un bout de CSS.
 
 ### HTML
 
-Pour commencer, nous ajouterons le script dans le template ` `overall_footer_end`  `, juste avant la fermeture de la balise `  `</body>` `.
+Pour commencer, nous ajouterons le script dans le template `overall_footer_end`, juste avant la fermeture de la balise `</body>`.
 
 ```html
 <!-- Wombat.js -->
@@ -92,15 +92,7 @@ Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous p
 : Permet d'appliquer un style `display` particulier sur le profil une fois qu'il sera chargé dans le volet.
 
 **afterLoad** `function` `arguments: aside, overlay`
-: Cette fonction sera appelée en *callback*une fois le profil chargé dans le volet vous permettant de réutiliser un script pour, par exemple, modifier la structure des champs de profils, appliquer une couleur de groupe quelque part, etc. ++Le premier argument de la fonction est un HTMLElement ciblant le volet dans lequel le profil est ajouté. Le deuxième argument cible directement l'obfuscateur derrière, au besoin.++
-
-**allowGuests** `boolean` `false par défaut`
-: Si un invité essaie de consulter le profil d'un membre, Wombat refusera tout simplement la requête pour éviter une erreur via la redirection du formulaire de connexion (pour les profils privés). Toutefois, si les invités sont autorisés à consulter les profils, vous pouvez contourner cette sécurité grâce à la valeur `true`.
-
-**excludes** `array` `[] par défaut (vide)`
-: Il vous est possible de limiter le déclencehement de Wombat pour certaines profils en utilisant un tableau de sélecteurs CSS. Il sera interprété de cette façon, grâceau pseudo-classe de négation : `a[href^="/u"]:not(${exclusions})`.
-  
-
+: Cette fonction sera appelée en *callback*une fois le profil chargé dans le volet vous permettant de réutiliser un script pour, par exemple, modifier la structure des champs de profils, appliquer une couleur de groupe quelque part, etc.Le premier argument de la fonction est un HTMLElement ciblant le volet dans lequel le profil est ajouté. Le deuxième argument cible directement l'obfuscateur derrière, au besoin.
 ```js
   /* exemple */
   new Wombat({
@@ -108,5 +100,17 @@ Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous p
           var color = aside.querySelector('#rang').style.color;
           aside.querySelector('.rank-header').style.backgroundColor = color;
       }
+  });
+```
+
+**allowGuests** `boolean` `false par défaut`
+: Si un invité essaie de consulter le profil d'un membre, Wombat refusera tout simplement la requête pour éviter une erreur via la redirection du formulaire de connexion (pour les profils privés). Toutefois, si les invités sont autorisés à consulter les profils, vous pouvez contourner cette sécurité grâce à la valeur `true`.
+
+**excludes** `array` `[] par défaut (vide)`
+: Il vous est possible de limiter le déclenchement de Wombat pour certains profils en utilisant un tableau de sélecteurs CSS. Il sera interprété de cette façon, grâce au pseudo-classe de négation : `a[href^="/u"]:not(${exclusions})`. Par exemple, pour empêcher Wombat sur le profil du compte fondateur, il faudrait faire comme ceci :
+```js
+  /* exemple */
+  new Wombat({
+      excludes: ['[href="/u1"]']
   });
 ```
