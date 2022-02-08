@@ -20,7 +20,7 @@ Switcheroo nécessite quelques modifications de votre part avant d'être install
 
 Le plugin en lui-même est très simple à installer. Il comprend deux fichiers Javascript hébergés par mes soins  – ce qui me permettra de pouvoir patcher directement les scripts en cas de besoin et de proposer de futurs mises à jour sans que vous n'ayez à faire quoique ce soit.
 
-Ils s'installent directement dans le template `général/template overall_footer_end`, juste avant la fermeture de la balise `</body>`.
+Ils s'installent directement dans le template `général/overall_footer_end`, juste avant la fermeture de la balise `</body>`.
 
 ``` html
 <!-- Barre principale du plugin, dans laquelle la magie s'opère. Certaines valeurs peuvent être modifiées. -->
