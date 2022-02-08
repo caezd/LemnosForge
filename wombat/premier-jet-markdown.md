@@ -1,6 +1,6 @@
 ## Description
 
-Wombat est une visionneuse de profil qui permet de charger et d'ouvrir le profil des membres directement sur la page active, sans la recharger ou en changer, dans un volet indépendant (ou un drawer, comme on les appelle).
+Wombat est une visionneuse de profil qui permet de charger et d'ouvrir le profil des membres directement sur la page active, sans la recharger ou en changer, dans un volet indépendant (ou un drawer, comme on les appelle). Il n'empêche pas les visiteurs de consulter la page standard en l'ouvrant dans un nouvel onglet.
 
 ## Prérequis
 
@@ -27,6 +27,23 @@ Pour commencer, nous ajouterons le script dans le template `overall_footer_end`,
         new Wombat();
     })();
 </script>
+```
+
+Ensuite, il faudra ajouter un indentifiant dans le template `profile_view_body` (sous la catégorie Profil) afin de déterminer quelle partie du template sera importée dans le panneau latéral de Wombat. Il vous faudra certainement planifier cette partie à l'avance dans votre design, la styler differemment ou la minifier. Pour cet exemple, j'ai décidé d'ajouter un profil très abrégé avec seulement l'avatar du membre et ses boutons de contact à la toute fin du template.
+
+> L'attribut `hidden` me permet juste de cacher ce bout de code si un visiteur consulte le profil d'un membre d'une autre façon (si le profil est ouvert dans un nouvel onglet, s'il est redirigé par un lien externe, etc.).
+
+```html
+<div class="panel bg1" id="wombat" hidden>
+    <div class="wombat-avatar">{AVATAR_IMG}</div>
+    <div class="wombat-buttons">
+        <!-- BEGIN contact_field -->
+		<dl id="field_id{contact_field.ID}" class="left-box details" style="width: 80%;">
+			<dt>{contact_field.LABEL}</dt> <dd>{contact_field.CONTENT}</dd>
+		</dl>
+		<!-- END contact_field -->
+    </div>
+</div>
 ```
 
 ### CSS
