@@ -3,19 +3,14 @@ Switcheroo est un plugin qui permet de réunir ses multicomptes sur une barre de
 
 ## Prérequis
 Switcheroo nécessite quelques modifications de votre part avant d'être installé. Cette étape est très importante puisque le plugin ne fonctionnera pas sans ces ajustements.
-- ==Autoriser les formulaires ajax==
 
-   Il faut autoriser les formulaires non-officiel à poster sur votre forum. Pour ce faire, rien de compliqué : accédez au panneau d'administration et suivez ce chemin `Général › Général › Sécurité`.
+- Il faut autoriser les formulaires non-officiel à poster sur votre forum. Pour ce faire, rien de compliqué : accédez au panneau d'administration et suivez ce chemin `Général › Général › Sécurité`.
    
    Il faudra décocher l'option "Interdire les formulaires non officiels à poster des messages et messages privés sur le forum" et sauvegarder les changements.
    
-- ==Activer la Toolbar==
-
-   Vous devez vous assurez que la Toolbar de ForumActif est activée. Si ce n'est pas le cas, faites-le en suivant ce chemin `Module › Toolbar › Configuration`. Si elle est désactivée parce que vous ne l'utilisez pas, je propose plus bas une solution pour la rendre invisible, ne vous en faites pas.
+- Vous devez vous assurez que la Toolbar de ForumActif est activée. Si ce n'est pas le cas, faites-le en suivant ce chemin `Module › Toolbar › Configuration`. Si elle est désactivée parce que vous ne l'utilisez pas, je propose plus bas une solution pour la rendre invisible, ne vous en faites pas.
    
-- ==Garder la barre de navigation==
-
-   La barre de navigation principale de votre forum (celle qui permet de faire une recherche, de se connecter, de s'inscrire et de se déconnecter) doit être présente quelque part sur toutes les pages. Si vous l'avez retiré de votre template pour diverses raisons, je propose plus bas une solution très simple pour la remettre et la cacher.
+- La barre de navigation principale de votre forum (celle qui permet de faire une recherche, de se connecter, de s'inscrire et de se déconnecter) doit être présente quelque part sur toutes les pages. Si vous l'avez retiré de votre template pour diverses raisons, je propose plus bas une solution très simple pour la remettre et la cacher.
    
    ++Veuillez noter qu'elle devra être ajoutée manuellement sur tous les forums en version ModernBB. La variable existe encore même si elle n'est pas dans le template de base.++
 
