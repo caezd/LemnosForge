@@ -36,7 +36,7 @@ Il faudra certainement planifier cette partie à l'avance, dans votre design ou 
 Notez que dans cet exemple, l'attribut `hidden` me permet juste de cacher ce bout de code pour les visiteurs consultant ledit profil d'une autre façon (s'il est ouvert dans un nouvel onglet, s'il est redirigé par un lien externe, etc.).
 {.info}
 
-```diff
+```html
 + <div class="panel bg1" id="wombat" hidden>
     <div class="wombat-avatar">{AVATAR_IMG}</div>
     <div class="wombat-buttons">
