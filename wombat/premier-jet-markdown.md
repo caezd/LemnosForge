@@ -93,15 +93,15 @@ Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous p
 
 **afterLoad** `function` `arguments: aside, overlay`
 : Cette fonction sera appelée en *callback*une fois le profil chargé dans le volet vous permettant de réutiliser un script pour, par exemple, modifier la structure des champs de profils, appliquer une couleur de groupe quelque part, etc.Le premier argument de la fonction est un HTMLElement ciblant le volet dans lequel le profil est ajouté. Le deuxième argument cible directement l'obfuscateur derrière, au besoin.
-```js
-  /* exemple */
-  new Wombat({
-      afterLoad: function(aside, overlay) {
-          var color = aside.querySelector('#rang').style.color;
-          aside.querySelector('.rank-header').style.backgroundColor = color;
-      }
-  });
-```
+    ```js
+      /* exemple */
+      new Wombat({
+          afterLoad: function(aside, overlay) {
+              var color = aside.querySelector('#rang').style.color;
+              aside.querySelector('.rank-header').style.backgroundColor = color;
+          }
+      });
+    ```
 
 **allowGuests** `boolean` `false par défaut`
 : Si un invité essaie de consulter le profil d'un membre, Wombat refusera tout simplement la requête pour éviter une erreur via la redirection du formulaire de connexion (pour les profils privés). Toutefois, si les invités sont autorisés à consulter les profils, vous pouvez contourner cette sécurité grâce à la valeur `true`.
