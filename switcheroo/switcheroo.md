@@ -10,9 +10,9 @@ Switcheroo nécessite quelques modifications de votre part avant d'être install
    
 - Vous devez vous assurez que la Toolbar de ForumActif est activée. Si ce n'est pas le cas, faites-le en suivant ce chemin `Module › Toolbar › Configuration`. Si elle est désactivée parce que vous ne l'utilisez pas, je propose plus bas une solution pour la rendre invisible, ne vous en faites pas.
    
-- La barre de navigation principale de votre forum (celle qui permet de faire une recherche, de se connecter, de s'inscrire et de se déconnecter) doit être présente quelque part sur toutes les pages. Si vous l'avez retiré de votre template pour diverses raisons, je propose plus bas une solution très simple pour la remettre et la cacher.
+- La barre de navigation principale de votre forum (celle qui permet de faire une recherche, de se connecter, de s'inscrire et de se déconnecter) doit être présente quelque part sur toutes les pages. Si vous l'avez retiré de votre template pour diverses raisons, je propose plus bas une solution très simple pour la remettre et la cacher.[^1]
    
-   ++Veuillez noter qu'elle devra être ajoutée manuellement sur tous les forums en version ModernBB. La variable existe encore même si elle n'est pas dans le template de base.++
+   [^1]: ++Veuillez noter que la barre de navigation doit être ajoutée manuellement sur tous les forums en version ModernBB puisque celle-ci la générère dynamiquement en Javascript. La variable existe encore même si elle n'est pas dans le template de base.++
 
 {.withCheck}
 
