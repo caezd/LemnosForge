@@ -36,16 +36,10 @@ Il faudra certainement planifier cette partie à l'avance, dans votre design ou 
 Notez que dans cet exemple, l'attribut `hidden` me permet juste de cacher ce bout de code pour les visiteurs consultant ledit profil d'une autre façon (s'il est ouvert dans un nouvel onglet, s'il est redirigé par un lien externe, etc.).
 {.info}
 
-```html
+```diff
 + <div class="panel bg1" id="wombat" hidden>
     <div class="wombat-avatar">{AVATAR_IMG}</div>
-    <div class="wombat-buttons">
-		<!-- BEGIN contact_field -->
-		<dl id="field_id{contact_field.ID}" class="left-box details" style="width: 80%;">
-			<dt>{contact_field.LABEL}</dt> <dd>{contact_field.CONTENT}</dd>
-		</dl>
-		<!-- END contact_field -->
-    </div>
+    ...
  </div>
 ```
 
