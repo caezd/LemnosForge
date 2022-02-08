@@ -36,8 +36,8 @@ Il faudra certainement planifier cette partie à l'avance, dans votre design ou 
 Notez que dans cet exemple, l'attribut `hidden` me permet juste de cacher ce bout de code pour les visiteurs consultant ledit profil d'une autre façon (s'il est ouvert dans un nouvel onglet, s'il est redirigé par un lien externe, etc.).
 {.info}
 
-```html
-<div class="panel bg1" id="wombat" hidden>
+```diff
++ <div class="panel bg1" id="wombat" hidden>
     <div class="wombat-avatar">{AVATAR_IMG}</div>
     <div class="wombat-buttons">
 		<!-- BEGIN contact_field -->
@@ -46,7 +46,7 @@ Notez que dans cet exemple, l'attribut `hidden` me permet juste de cacher ce bou
 		</dl>
 		<!-- END contact_field -->
     </div>
-</div>
+ </div>
 ```
 
 Seulement cette partie du profil sera affichée grâce à Wombat. Tant que l'identifiant `id="wombat"` est quelque part dans le template, tout ce qu'il contient sera chargé dans le panneau latéral.
