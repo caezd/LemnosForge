@@ -29,9 +29,13 @@ Pour commencer, nous ajouterons le script dans le template `overall_footer_end`,
 </script>
 ```
 
-Ensuite, il faudra ajouter un indentifiant dans le template `profile_view_body` (sous la catégorie Profil) afin de déterminer quelle partie du template sera importée dans le panneau latéral de Wombat. Il vous faudra certainement planifier cette partie à l'avance dans votre design, la styler differemment ou la minifier. Pour cet exemple, j'ai décidé d'ajouter un profil très abrégé avec seulement l'avatar du membre et ses boutons de contact à la toute fin du template.
+Ensuite, il faudra ajouter un indentifiant dans le template `profile_view_body` (sous la catégorie Profil) afin de déterminer quelle partie du template sera importée dans le panneau latéral de Wombat. 
 
-> L'attribut `hidden` me permet juste de cacher ce bout de code si un visiteur consulte le profil d'un membre d'une autre façon (si le profil est ouvert dans un nouvel onglet, s'il est redirigé par un lien externe, etc.).
+Il vous faudra certainement planifier cette partie à l'avance dans votre design, la styler differemment ou la minifier. Pour cet exemple, j'ai décidé d'ajouter un profil très abrégé avec seulement l'avatar du membre et ses boutons de contact à la toute fin du template.
+
+::: info
+L'attribut `hidden` me permet juste de cacher ce bout de code si un visiteur consulte le profil d'un membre d'une autre façon (si le profil est ouvert dans un nouvel onglet, s'il est redirigé par un lien externe, etc.).
+:::
 
 ```html
 <div class="panel bg1" id="wombat" hidden>
