@@ -8,4 +8,5 @@ Switcheroo nécessite quelques modifications de votre part avant d'être install
    Il faut autoriser les formulaires non-officiel à poster sur votre forum. Pour ce faire, rien de compliqué : accédez au panneau d'administration et suivez ce chemin Général › Général › Sécurité.
    
    Il faudra décocher l'option "Interdire les formulaires non officiels à poster des messages et messages privés sur le forum" et sauvegarder les changements.
+
 {.withCheck}
