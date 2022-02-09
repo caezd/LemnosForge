@@ -72,7 +72,7 @@ Les options ci-dessous sont celles par défaut :
     });
 })();
 ```
-- ==Version 1.1.1== Une nouvelle option permet de customiser tous les textes utilisés par le plugin.
+- ==Version 1.1.1=={#change-lang} Une nouvelle option permet de customiser tous les textes utilisés par le plugin.
 
 ## CSS
 
