@@ -11,11 +11,11 @@ Wombat ne fonctionne pas avec l'affichage des profils avancés de ForumActif.
 
 ## Installation
 
-Pour installer la formule "de base" de Wombat, il vous faudra simplement modifier les templates `général/overall_footer_end` et `profil/profile_view_body`, ainsi qu'ajouter un bout de CSS.
+Pour installer la formule "de base" de Wombat, il vous faudra tout simplement modifier les templates `général/overall_footer_end` et `profil/profile_view_body`, ainsi qu'ajouter un bout de CSS.
 
 ### HTML
 
-Pour commencer, nous ajouterons le script dans le template `overall_footer_end`, juste avant la fermeture de la balise `</body>`.
+Nous commencerons par ajouter le script dans le template `overall_footer_end`, juste avant la fermeture de la balise `</body>` :
 
 ```html
 <!-- Wombat.js -->
@@ -31,9 +31,9 @@ Pour commencer, nous ajouterons le script dans le template `overall_footer_end`,
 
 Ensuite, il faudra ajouter un identifiant dans le template `profil/profile_view_body` pour spécifier quelle partie du profil sera importée dans le panneau latéral de Wombat. 
 
-Il faudra certainement planifier cette partie à l'avance, dans votre design ou dans la strructure générale dudit template. Pour ma part, j'ai décidé d'épurer les profils en ne laissant que l'avatar du membre et ses boutons de contact.
+Il faudra certainement planifier cette partie à l'avance, dans votre design ou dans la structure générale dudit template. Pour ma part, j'ai décidé d'épurer les profils en ne laissant que l'avatar du membre et ses boutons de contact.
 
-Notez que dans cet exemple, l'attribut `hidden` me permet juste de cacher ce bout de code pour les visiteurs consultant ledit profil d'une autre façon (s'il est ouvert dans un nouvel onglet, s'il est redirigé par un lien externe, etc.).
+Notez que dans cet exemple, l'attribut `hidden` me permet juste de cacher ce bout de code les profils sont consultés d'une autre façon (s'ils sont ouverts dans un nouvel onglet, ou redirigés par un lien externe, etc.).
 {.info}
 
 ```diff
