@@ -96,10 +96,10 @@ Le CSS doit être ajouté sur votre forum avec le reste de votre style. Celui qu
 
 Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous permettent un contrôle un peu plus pointu. Elles doivent être déclarées en même temps que l'initialisation du script, qu'on a placé plus haut dans le template `général/overall_footer_end`, comme ceci :
 
-```html
+```js
 (function() {
-  new Wombat({
-    option: valeur
+	new Wombat({
+        option: valeur
 	});
 })();
 ```
