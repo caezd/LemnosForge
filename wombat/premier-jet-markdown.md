@@ -33,7 +33,7 @@ Ensuite, il faudra ajouter un identifiant dans le template `profil/profile_view_
 
 Il faudra certainement planifier cette partie à l'avance, dans votre design ou dans la structure générale dudit template. Pour ma part, j'ai décidé d'épurer les profils en ne laissant que l'avatar du membre et ses boutons de contact.
 
-Notez que dans cet exemple, l'attribut `hidden` me permet juste de cacher ce bout de code les profils sont consultés d'une autre façon (s'ils sont ouverts dans un nouvel onglet, ou redirigés par un lien externe, etc.).
+Notez que dans cet exemple, l'attribut `hidden` me permet juste de cacher ce bout de code quand les profils sont consultés sur leur page d'origine (s'ils sont ouverts dans un nouvel onglet, ou redirigés par un lien externe, etc.).
 {.info}
 
 ```diff
