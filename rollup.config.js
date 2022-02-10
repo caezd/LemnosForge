@@ -1,3 +1,5 @@
+import { uglify } from 'rollup-plugin-uglify';
+
 export default {
     input: 'src/main.js',
     output: {
@@ -7,5 +9,6 @@ export default {
             jquery: '$'
           }
     },
-    external: ['jquery']
+    external: ['jquery'],
+    /* plugins: [uglify()] */
 };
