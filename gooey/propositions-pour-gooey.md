@@ -1,4 +1,4 @@
-Attention, ce plugin n'est pas à portée de tous. Bien qu'il soit simple à installer, il demande une bonne connaissance en JavaScript pour être utilisé et compris pleinement. Et ce, même s'il vient avec quelques exemples, dont une réécriture complète du template par défaut de chaque version !{.info}
+<article>Attention, ce plugin n'est pas à portée de tous. Bien qu'il soit simple à installer, il demande une bonne connaissance en JavaScript pour être utilisé et compris pleinement.</article>
 
 ## Description
 
