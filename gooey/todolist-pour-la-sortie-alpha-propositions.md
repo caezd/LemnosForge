@@ -8,6 +8,7 @@ Gooey est un plugin qui permet de réécrire de manière plus flexible le templa
 
 ## Pour la sortie beta
 
-- [ ] Write the press release
+- [ ] "Unescape" les titres/descriptions pour conserver le HTML intact.
 - [ ] Update the website
+
 - [ ] Terminer la documentation
