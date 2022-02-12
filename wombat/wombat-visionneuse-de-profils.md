@@ -53,7 +53,7 @@ Le CSS doit être ajouté sur votre forum avec le reste de votre style. Celui qu
 /* obfuscator */
 .wombat-overlay {
     position: fixed;
-    z-index: 999;
+    z-index: 90;
     top: 0;
     left: 0;
     opacity: 0;
@@ -73,7 +73,9 @@ Le CSS doit être ajouté sur votre forum avec le reste de votre style. Celui qu
 /* volet*/
 .wombat-aside {
     position: fixed;
-    z-index: 1000;
+    top: 0;
+    left: 0;
+    z-index: 100;
     transition: 0.2s all ease;
     visibility: hidden;
     opacity: 0;
