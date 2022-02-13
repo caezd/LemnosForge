@@ -141,4 +141,4 @@ Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous p
 **drawerClass** `string` `'wombat-aside' par défaut`
 : Classe CSS attribuée par défaut au panneau latéral de Wombat.
 
-@[code highlight={1-6} transcludeTag=style](@/wombat.js)
+[hello]{name: "world"}
