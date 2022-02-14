@@ -8,3 +8,5 @@ En elle-même, cette nouveauté semble assez risible, mais elle me permet de rev
 
 Cet exemple n'est plus très parlant maintenant que le forum est fermé et qu'aucun membre ne s'est connecté dernièrement, mais la couleur des groupes était distribuée en anneau et s'élargissaient proportionnellement. J'ai utilisé
 Dans cet exemple, chaque couleur du donut correspondait à un groupe et était dessiné grâce à la librairie [https://www.chartjs.org/](Chart.js) que je recommence fortement pour sa simplicité.
+
+https://stackoverflow.com/questions/30712621/pure-css3-or-svg-animated-doughnut-chart
