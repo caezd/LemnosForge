@@ -3,7 +3,8 @@ La dernière mise à jour de ForumActif en date (décembre 2021) ajoutait une no
 En elle-même, cette nouveauté semble assez risible, mais elle me permet de revisiter une tentative d'indiquer le nombre de membres par groupe dans le qui est en ligne d'un forum sous la forme d'un graphique en anneau (aussi appelé donut-chart, ou pie-chart). À l'époque, j'ai essayé d'en faire un pour Lazarus, mais il n'était pas représentatif d'une distribution authentique des effectifs parce que le graphique calculait les membres à partir des membres connectés dans les dernières 24 heures.
 
 
-#[Qui est en ligne sur le dernier design de Projet Lazarus](https://i.imgur.com/KtyPY6y.png){data=asdf}
+#[Qui est en ligne sur le dernier design de Projet Lazarus](https://i.imgur.com/KtyPY6y.png)
+{data=asdf}
 
 Cet exemple n'est plus très parlant maintenant que le forum est fermé et qu'aucun membre ne s'est connecté dernièrement, mais la couleur des groupes était distribuée en anneau et s'élargissaient proportionnellement. J'ai utilisé
 Dans cet exemple, chaque couleur du donut correspondait à un groupe et était dessiné grâce à la librairie [https://www.chartjs.org/](Chart.js) que je recommence fortement pour sa simplicité.
