@@ -4,4 +4,5 @@ En elle-même, cette nouveauté semble assez risible, mais elle me permet de rev
 
 
 #[qui est en ligne de lazarus project](https://i.imgur.com/KtyPY6y.png)
+
 Dans cet exemple d'anneau, chaque couleur correspondait à un groupe.
