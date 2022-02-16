@@ -336,6 +336,8 @@ window.Wombat = (function () {
 
 })();
 
-var demo = new Wombat();
+var demo = new Wombat({
+	allowGuests: true
+});
 ```
 :::
