@@ -12,7 +12,7 @@ J'ai décidé de revoir mon approche maintenant que cette mise à jour nous perm
 
 ## Prérequis
 
-Pour commencer, si ce n'est pas déjà le cas (pour les forums créés avant la mise à jour - sinon l'affichage de la liste des groupes est activé par défaut pour les plus récemment créés), il faudra se diriger dans le panneau d'administration et rendre visibles tous les groupes en suivant ce chemin : `Utilisateurs & Groupes > Groupes > Administration des groupes`. 
+Avant de commencer, si ce n'est pas déjà le cas (pour les forums créés avant la mise à jour - sinon l'affichage de la liste des groupes est activé par défaut pour les plus récemment créés), il faudra se diriger dans le panneau d'administration et rendre visibles tous les groupes en suivant ce chemin : `Utilisateurs & Groupes > Groupes > Administration des groupes`. 
 
 [Nous pouvons maintenant voir la liste de tous les groupes](https://i.servimg.com/u/f14/09/00/01/33/liste-10.png)
 
