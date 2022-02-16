@@ -143,7 +143,7 @@ Comme n'importe quel autre plugin, Wombat vient avec quelques options qui vous p
 
 ::: import wombat-demo
 ``` js
-var Wombat = (function () {
+window.Wombat = (function () {
   'use strict';
 
   /**
