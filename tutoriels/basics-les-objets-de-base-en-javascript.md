@@ -1,8 +1,4 @@
-Dans ce tutoriel, nous prendrons quelques minutes pour comprendre la syntaxe des objets en JavaScript puisque que bon nombre des fonctionnalités que vous traiterez avec ce langage sont en fait... des objets.
 
-## Mais c'est quoi, un objet ?
-
-Un objet est un amalgame de données et/ou de fonctionnalités associées dans un même corps. Celles-ci consistent généralement en plusieurs variables et fonctions (appelées proprétés et méthodes lorsqu'elles se trouvent à l'intérieur d'un objet).
 
 ## Variables
 
@@ -39,6 +35,11 @@ Il existe trois types de déclarations de variable en JavaScript et chacune d'el
     // si on exécute la fonction, _lang est définie à l'intérieur de celle-ci et écrit bien 'FR' dans la console
   ```
 - `const`
-### Let
 
 ## Fonctions
+
+Dans ce tutoriel, nous prendrons quelques minutes pour comprendre la syntaxe des objets en JavaScript puisque que bon nombre des fonctionnalités que vous traiterez avec ce langage sont en fait... des objets.
+
+## Mais c'est quoi, un objet ?
+
+Un objet est un amalgame de données et/ou de fonctionnalités associées dans un même corps. Celles-ci consistent généralement en plusieurs variables et fonctions (appelées proprétés et méthodes lorsqu'elles se trouvent à l'intérieur d'un objet).
