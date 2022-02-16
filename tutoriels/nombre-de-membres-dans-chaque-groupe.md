@@ -1,14 +1,14 @@
 La dernière mise à jour de ForumActif en date (décembre 2021) ajoutait une nouvelle fonctionnalité à la page des groupes : le dénombrement des membres qui sont présents dans chacun d'eux. Vous pouvez retrouver la publication de cette nouveauté sur le [forum officiel du support](https://forum.forumactif.com/t406331-amelioration-de-la-page-groupes "Amélioration de la page Groupes") si les détails vous intéressent.
 
-En elle-même, cette nouveauté semble assez risible, mais elle me permet de revisiter une tentative d'indiquer le nombre de membres par groupe dans le qui est en ligne d'un forum sous la forme d'un graphique en anneau (aussi appelé donut-chart). À l'époque, j'ai essayé d'en faire un pour Projet Lazarus, mais il n'était pas représentatif d'une distribution authentique des effectifs parce que, par soucis de permormances, il calculait les membres à partir de ceux connectés dans les dernières 24 heures (plutôt que de charger dynamiquement en ajax chaque page de chaque groupe).
-
+En elle-même, cette nouveauté semble assez risible, mais elle me permet de revisiter une tentative d'indiquer le nombre de membres par groupe dans le qui est en ligne d'un forum sous la forme d'un graphique en anneau (aussi appelé donut-chart). J'en avais fait un pour Projet Lazarus, mais il n'était pas représentatif d'une distribution authentique des effectifs. Par soucis de permormances, il calculait les membres à partir de ceux connectés dans les dernières 24 heures plutôt que de charger dynamiquement en ajax chaque page de chaque groupe afin d'en faire le décompte.
 
 #[Qui est en ligne sur le dernier design de Projet Lazarus](https://i.imgur.com/KtyPY6y.png)
 
 Cet exemple n'est plus très parlant maintenant que le forum est fermé et qu'aucun membre ne s'est connecté dans les dernières heures, mais chaque segment de couleur représentait un groupe et s'élargissait proportionnellement en fonction du nombre de membres connectés.
-les couleurs des groupes étaient distribuées en anneau et s'élargissaient proportionnellement. Ce n'était pas une représentation ni une solution parfaite, mais dans un soucis de performances, j'ai tranché
 
-Avec cette nouvelle fonctionnalité, il est maintenant possible de récupérer tous les effectifs de tous les groupes en une seule requête, avec l'API de Fetch (le nouveau XHR/Ajax), ce qui est beaucoup plus propre.
+J'ai décidé de revoir mon approche maintenant que cette mise à jour nous permet de récupéter tous les effectifs de tous les groupes en une seule requête, et de partager avec vous deux façons de faire.
+1. Un affichage simple dans une liste formattée et stylisée
+2. Un affichage graphique, soit en "donut-chart" soit un "pie-chart"
 
 ## Prérequis
 
