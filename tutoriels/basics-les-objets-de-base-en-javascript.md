@@ -1,4 +1,4 @@
-Dans ce petit cours, nous prendrons quelques minutes pour comprendre les bases de la syntaxe de JavaScript.
+Dans ce premier petit cours, nous prendrons quelques minutes pour comprendre les bases de la syntaxe de JavaScript.
 
 ## Variables
 
@@ -58,7 +58,7 @@ function square(number) {
 }
 ```
 
-- Le nom est l'*identifiant* d'une fonction et doit respecter les mêmes conventions de nommage qu'une variable. Dans l'exemple, le nom de la variable est `square`.
+- Le nom est l'*identifiant* d'une fonction et doit respecter les mêmes conventions de nommage qu'une variable[^1]. Dans l'exemple, le nom de la variable est `square`.
 - Entre les parenthèses se trouvent les *arguments* de la fonction. Ils agissent comme des variables `let` déclarées à l'avance (sans le mot-clef) et peuvent être utilisées uniquement à l'intérieur de leur fonction. Dans l'exemple, l'argument `number` est déclaré entre les parenthèses et utilisé plus tard, juste en dessous.
 - L'instruction de la fonction est exécuté ligne après ligne et peut faire toutes sortes de choses. Dans l'exemple, la fonction `square` utilise le mot-clef `return` qui renvoie l'argument de la fonction `number` multiplié par lui-même.
   ```js
