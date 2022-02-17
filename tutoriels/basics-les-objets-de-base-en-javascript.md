@@ -69,7 +69,7 @@ function square(number) {
   ```
 
 ## Tableaux
-Les tableaux sont des objets(#objets) semblables à des listes dont le prototype (comprendre : fonctions héritées/innées) possède des méthodes qui permettent de parcourir et de modifier le tableau.
+Les tableaux sont des objets[^2] semblables à des listes dont le prototype (comprendre : fonctions héritées/innées) possède des méthodes qui permettent de parcourir et de modifier le tableau.
 
 ## Objets
 Un objet est un amalgame de données et/ou de fonctionnalités associées dans un même corps. Celles-ci consistent généralement en plusieurs variables et fonctions (appelées proprétés et méthodes lorsqu'elles se trouvent à l'intérieur d'un objet).
@@ -85,3 +85,5 @@ Une fonction anonyme
 
 ### Nouvelle syntaxe des fonctions
 ~~## Mais c'est quoi, un objet ?Un objet est un amalgame de données et/ou de fonctionnalités associées dans un même corps. Celles-ci consistent généralement en plusieurs variables et fonctions (appelées proprétés et méthodes lorsqu'elles se trouvent à l'intérieur d'un objet).~~
+
+[^2]: La plupart des choses en JS sont des objets, mais on s'attardera sur le sujet plus tard.
