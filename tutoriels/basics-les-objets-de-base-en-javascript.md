@@ -1,4 +1,4 @@
-
+Dans ce petit cours, nous prendrons quelques minutes pour comprendre les bases de la syntaxe de JavaScript.
 
 ## Variables
 
@@ -9,19 +9,19 @@ Une variable est un emplacement ***nommé*** qui permet de conserver une valeur 
 Il existe trois types de déclarations de variable en JavaScript et chacune d'elles fonctionne différemment.
 - Le mot-clef `var` (pour variable) permet de déclarer **une variable** et éventuellement d'initialiser sa valeur. Elle peut être déclarée sans valeur dans certains cas (à l'extérieur d'une boucle ou d'une fonction par exemple), puis assignée plus tard.
   ```js 
-    var username = 'Monomer';
-    var age = 319;
-    var lang = 'FR';
-    var _id, _msg, _etc;
+    var username = 'Monomer'; // valeur de type 'string'
+    var age = 319; // valeur de type 'number'
+    var lang = 'FR'; // valeur de type 'string'
+    var _id, _msg, _etc; // valeur de type undefined
     
     console.log(username, age, _id);
     
-    // écrit dans la console : 'Monomer', 319, '' (parce que variable vide)
+    // écrit dans la console : 'Monomer', 319, undefined (parce que variable vide)
   ```
 - Le mot-clef `let` permet aussi de déclarer **une variable** dont la portée est celle du bloc courant. Si elle est déclarée dans une fonction, elle sera disponible uniquement à l'intérieur du bloc de ladite fonction ; si elle est déclarée à l'extérieur, elle sera considée comme *globale* au même titre que `var`. 
   ```js 
-    let username = 'Monomer';
-    let age = 319;
+    let username = 'Monomer'; // valeur de type 'string'
+    let age = 319; // valeur de type 'number'
     
     function language() {
       let _lang = 'FR';
@@ -67,5 +67,19 @@ function square(number) {
   console.log(result)
   // écrit 81 dans la console : la fonction est exécutée comme une valeur et non comme une fonction, grâce au mot-clef "return"
   ```
+  
+## Objets
 
-~~Dans ce tutoriel, nous prendrons quelques minutes pour comprendre la syntaxe des objets en JavaScript puisque que bon nombre des fonctionnalités que vous traiterez avec ce langage sont en fait... des objets.## Mais c'est quoi, un objet ?Un objet est un amalgame de données et/ou de fonctionnalités associées dans un même corps. Celles-ci consistent généralement en plusieurs variables et fonctions (appelées proprétés et méthodes lorsqu'elles se trouvent à l'intérieur d'un objet).~~
+
+
+```js
+
+```
+
+### Fonctions anonymes
+
+Une fonction anonyme
+
+
+### Nouvelle syntaxe des fonctions
+~~## Mais c'est quoi, un objet ?Un objet est un amalgame de données et/ou de fonctionnalités associées dans un même corps. Celles-ci consistent généralement en plusieurs variables et fonctions (appelées proprétés et méthodes lorsqu'elles se trouvent à l'intérieur d'un objet).~~
