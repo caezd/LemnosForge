@@ -46,7 +46,9 @@ Il existe trois types de déclarations de variable en JavaScript et chacune d'el
 
 ## Fonctions
 
-Une fonctionne est une procédure, ou un "bloc d'instructions" si on veut, qui contient un ensemble d'instructions, de calculs ou de "fait tel, tel, et tel truc pour moi, merci". Pour utiliser une fonction, il faut d'abord qu'elle soit déclarée.
+Une fonctionne est une procédure, un "sous-programme" qui peut être appelé plus tard ou ailleurs (et même à l'intérieur d'elle-même dans le cas d'une récusion). Comme le programme, une fonction est composée d'une suite d'instructions qui forment le corps de la fonction ; il est parfois possible de *passer* des valeurs à une fonction (grâce aux arguments) et une fonction peut éventuellement *retourner* (ou *renvoyer*) une valeur lorsqu'elle est exécutée. En gros, c'est un "bloc d'instructions" si on veut, qui contient une série de trucs à faire ou de calculs et qui peut être appeler quand on a besoin qu'elle fasse "tel truc, tel machin, et puis ça aussi, merci". 
+
+Pour utiliser une fonction, il faut d'abord qu'elle soit déclarée.
 
 ```js
 function nom(argument_1, argument_2, etc) {
