@@ -46,7 +46,7 @@ Il existe trois types de déclarations de variable en JavaScript et chacune d'el
 
 ## Fonctions
 
-Une fonctionne est une procédure, un "sous-programme" qui peut être appelé plus tard ou ailleurs (et même à l'intérieur d'elle-même dans le cas d'une récusion). Comme le programme, une fonction est composée d'une suite d'instructions qui forment le corps de la fonction ; il est parfois possible de *passer* des valeurs à une fonction (grâce aux arguments) et une fonction peut éventuellement *retourner* (ou *renvoyer*) une valeur lorsqu'elle est exécutée. En gros, c'est un "bloc d'instructions" si on veut, qui contient une série de trucs à faire ou de calculs et qui peut être appeler quand on a besoin qu'elle fasse "tel truc, tel machin, et puis ça aussi, merci". 
+Une fonction est une procédure, un "sous-programme" qui peut être appelé plus tard ou ailleurs (et même à l'intérieur de lui-même dans le cas d'une récursion). Comme le programme, une fonction est composée d'une suite d'instructions qui forment son corps ; il est parfois possible de *passer* des valeurs à une fonction (grâce aux arguments) et une fonction peut éventuellement *retourner* (ou *renvoyer*) une valeur lorsqu'elle est exécutée. En gros, c'est un "bloc d'instructions" si on veut, qui contient une série de trucs à faire ou de calculs, et qui peut être appeler quand on a besoin qu'elle fasse "tel truc, tel machin, et puis ça aussi, merci". 
 
 Pour utiliser une fonction, il faut d'abord qu'elle soit déclarée.
 
@@ -107,4 +107,4 @@ Une fonction anonyme
 ### Nouvelle syntaxe des fonctions
 ~~## Mais c'est quoi, un objet ?Un objet est un amalgame de données et/ou de fonctionnalités associées dans un même corps. Celles-ci consistent généralement en plusieurs variables et fonctions (appelées proprétés et méthodes lorsqu'elles se trouvent à l'intérieur d'un objet).~~
 
-[^2]: La plupart des choses en JS sont des objets, mais on s'attardera sur le sujet plus tard.
+[^2]: La plupart des choses en JS sont des objets en arrière-plan, mais on s'attardera sur le sujet plus tard.
