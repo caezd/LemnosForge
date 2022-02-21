@@ -100,7 +100,7 @@ Même si elles sont fantastiques et très utiles dans certains cas de figure, je
 // Pour rester avec des calculs simples, on reprend notre fonction square
 // Par contre, on va l'appliquer à la méthode ".map()" d'un objet tableau
 // Si vous ne comprenez pas ce qu'elle fait, on y reviendra plus tard
-// Pour le momenet, on se concentre juste sur les différentes syntaxes de la fonction flechée
+// Pour le moment, on se concentre juste sur les différentes syntaxes de la fonction flechée
 
 // On a une liste de nombres 
 var numbers = [10, 14, 18, 32];
@@ -118,6 +118,7 @@ var square = (number) => {
 var result = numbers.map((number) => {
   return number * number;
 });
+console.log(result);
 
 // On place les arguments entre les parenthèses, comme pour une fonction traditionnelle
 // Par contre, les parenthèses sont facultatives s'il n'y a qu'un seul argument
@@ -125,14 +126,16 @@ var result = numbers.map((number) => {
 var result = numbers.map(number => {
   return number * number;
 });
+console.log(result);
 
 // Lorsqu'une fonction flechée n'a qu'une seule ligne et utilise le mot-clef "return" pour renvoyer une valeur
 // Il est possible de retirer le bloc d'accolades ainsi que le mot-clef, pour tout rassembler sur une ligne unique
+// Le "return" devient sous-entendu et fonctionne de la même manière
 var result = numbers.map(number => number * number);
+console.log(result);
 ```
 
-À mon avis, il est important d'être capable de les identifier et de reconnaître qu'il s'agit d'une fonction à la syntaxe un peu plus alienne, d'autant plus lorsqu'elle peut être encore plus 
-++En soi, elles sont fantastiques ; par contre, ce petit cours étant adressé aux développeurs débutants sur ForumActif, je ne vois pas l'utilité de les aborder plus en profondeur parce que, malheureusement, la gestion des scripts de notre plateforme ne permet pas de les utiliser.++
+Maintenant que vous avez une idée de ce à quoi les fonctions fléchées ressemblent, la prochaine fois que vous en croiserez ailleurs vous saurez reconnaître qu'il s'agit simplement d'une fonction un peu plus flexible dans son écriture. Elle possède d'autres particularités et limitations, mais je ne vous conseille pas de les utiliser sur ForumActif. L'éditeur JavaScript du panneau d'aministration ne les reconnaît toujours pas – ou juste parfois, dans certains cas, les jours de pleine lune en juin. La syntaxe traditionnelle que j'ai présentée plus haut, avec le mot-clef `function` fonctionne très bien.
 
 ### Reconnaître les fonctions
 
