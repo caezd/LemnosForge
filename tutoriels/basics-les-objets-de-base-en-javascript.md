@@ -83,7 +83,7 @@ age(319);
 ```
   
 ### Nouvelle syntaxe des fonctions
-Avec l'édition 6 d'ECMAScript (abrégé ES6 – qui est l'ensemble des normes et des standards d'écriture du langage), un nouveau type de fonctione est introduit : les fonctions fléchées (arrow functions). Dans vos recherches ou vos apprentissages, vous serez sûrement amené à en croiser quelques-unes, elles ressemble à :
+Avec l'édition 6 d'ECMAScript (abrégé ES6 – qui est l'ensemble des normes et des standards d'écriture du langage), un nouveau type de fonctione est introduit : les fonctions fléchées (arrow functions). Dans vos apprentissages ou vos recherches, vous serez sûrement amenés à en croiser quelques-unes, elles ressemble à :
 ```js
 // Fonction anonyme traditionnelle
 function (a){
@@ -95,7 +95,43 @@ function (a){
   return a + 100;
 }
 ```
+Même si elles sont fantastiques et très utiles dans certains cas de figure, je ne vous encourage pas à les utiliser tout de suite. Par contre, je pense qu'il est important de familiariser vos yeux à leur syntaxe un peu alienne, d'autant qu'elles peuvent être encore plus raccourcies dépendant du contexte comme : `a => a + 100`.
+```js
+// Pour rester avec des calculs simples, on reprend notre fonction square
+// Par contre, on va l'appliquer à la méthode ".map()" d'un objet tableau
+// Si vous ne comprenez pas ce qu'elle fait, on y reviendra plus tard
+// Pour le momenet, on se concentre juste sur les différentes syntaxes de la fonction flechée
 
+// On a une liste de nombres 
+var numbers = [10, 14, 18, 32];
+
+// Notre fonction square en version flechée se déclare dans une variable comme ceci :
+var square = (number) => {
+  return number * number;
+}
+
+// Admettons qu'on veuille appliquer ce calcul à notre liste de nombre
+// Il arrive qu'une fonction n'ait pas besoin d'être réutilisée ailleurs,
+// donc la déclarer dans une variable n'est pas spécialement utile.
+
+// On pourrait juste l'utiliser comme ça :
+var result = numbers.map((number) => {
+  return number * number;
+});
+
+// On place les arguments entre les parenthèses, comme pour une fonction traditionnelle
+// Par contre, les parenthèses sont facultatives s'il n'y a qu'un seul argument
+// On peut raccourcir comme ça : 
+var result = numbers.map(number => {
+  return number * number;
+});
+
+// Lorsqu'une fonction flechée n'a qu'une seule ligne et utilise le mot-clef "return" pour renvoyer une valeur
+// Il est possible de retirer le bloc d'accolades ainsi que le mot-clef, pour tout rassembler sur une ligne unique
+var result = numbers.map(number => number * number);
+```
+
+À mon avis, il est important d'être capable de les identifier et de reconnaître qu'il s'agit d'une fonction à la syntaxe un peu plus alienne, d'autant plus lorsqu'elle peut être encore plus 
 ++En soi, elles sont fantastiques ; par contre, ce petit cours étant adressé aux développeurs débutants sur ForumActif, je ne vois pas l'utilité de les aborder plus en profondeur parce que, malheureusement, la gestion des scripts de notre plateforme ne permet pas de les utiliser.++
 
 ### Reconnaître les fonctions
