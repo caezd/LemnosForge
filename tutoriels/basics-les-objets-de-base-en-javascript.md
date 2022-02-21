@@ -135,9 +135,10 @@ var result = numbers.map(number => number * number);
 console.log(result);
 ```
 
-Maintenant que vous avez une idée de ce à quoi les fonctions fléchées ressemblent, la prochaine fois que vous en croiserez ailleurs vous saurez reconnaître qu'il s'agit simplement d'une fonction un peu plus flexible dans son écriture. Elle possède d'autres particularités et limitations, mais je ne vous conseille pas de les utiliser sur ForumActif. L'éditeur JavaScript du panneau d'aministration ne les reconnaît toujours pas – ou juste parfois, dans certains cas, les jours de pleine lune en juin. 
+Maintenant que vous avez une idée de ce à quoi ressemblent les fonctions fléchées, la prochaine fois que vous en croiserez ailleurs vous saurez reconnaître qu'il s'agit simplement d'une fonction un peu plus flexible dans son écriture. Elle possède d'autres particularités et limitations que j'expliquerai peut-être un jour, mais je ne vous conseille pas de vous en servir sur ForumActif. Dans mes souvenirs, bien que je n'ai pas vérifié depuis un petit moment, l'éditeur JavaScript du panneau d'aministration ne les reconnaît toujours pas – ou juste parfois, dans certains cas, les jours de pleine lune en juin. 
 
-La syntaxe traditionnelle que j'ai présenté plus haut, avec le mot-clef `function` fonctionne très bien.
+La syntaxe traditionnelle que j'ai présenté plus haut, avec le mot-clef `function`, fait très bien l'affaire – et est plus simple à utiliser lorsqu'on apprend les bases du langage.
+
 ```js
 var result = numbers.map(function(number) {
   return number * number;
@@ -147,13 +148,13 @@ console.log(result);
 
 ### Reconnaître les fonctions
 
-Les fonctions (ou les méthodes lorsqu'il s'agit d'un objet) sont présentes partout et faciles à reconnaître : si vous voyez des parenthèses quelque part et qu'il ne s'agit pas d'une expression mathématique comme `(a + b) * 2`, il est question d'une fonction. Par exemple, l'objet ``console`` que nous avons utilisé plus tôt et qui permet d'écrire dans la console du navigateur possède différentes méthodes (qui sont des fonctions) : `console.log('héhé')` ou `console.error('hoho')`. Vous voyez les parenthèses ? Une fonction est appelée. C'est pareil pour `"SALUT".toLowerCase()` qui permet de mettre une chaîne de caractère en minuscules ; parenthèses -> fonction. 
+Les fonctions (ou les méthodes lorsqu'il s'agit d'un objet) sont présentes partout et faciles à reconnaître : si vous voyez des parenthèses quelque part et qu'il ne s'agit pas d'une expression mathématique comme `(a + b) * 2`, il est question d'une fonction exécutée. Par exemple, l'objet ``console`` que nous avons utilisé plus tôt et qui permet d'écrire dans la console du navigateur possède différentes méthodes (qui sont des fonctions) : `console.log('héhé')` ou `console.error('hoho')`. Vous voyez les parenthèses ? Une méthode est exécutée. C'est pareil pour `"SALUT".toLowerCase()` qui permet de mettre une chaîne de caractère en minuscules ; parenthèses -> fonction/méthode. 
 
 ## Tableaux
 Les tableaux sont des objets[^2] semblables à des listes dont le prototype (comprendre : fonctions héritées/innées) possède des méthodes qui permettent de parcourir et de modifier le tableau.
 
 ## Objets
-Un objet est un amalgame de données et/ou de fonctionnalités associées dans un même corps. Celles-ci consistent généralement en plusieurs variables et fonctions (appelées proprétés et méthodes lorsqu'elles se trouvent à l'intérieur d'un objet).
+Un objet est un amalgame de données et/ou de fonctionnalités associées dans un même corps. Celles-ci consistent généralement en plusieurs variables et fonctions (respectivement appelées proprétés et méthodes lorsqu'elles font partie d'un objet).
 
 ```js
 var profil = {}
