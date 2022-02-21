@@ -135,7 +135,15 @@ var result = numbers.map(number => number * number);
 console.log(result);
 ```
 
-Maintenant que vous avez une idée de ce à quoi les fonctions fléchées ressemblent, la prochaine fois que vous en croiserez ailleurs vous saurez reconnaître qu'il s'agit simplement d'une fonction un peu plus flexible dans son écriture. Elle possède d'autres particularités et limitations, mais je ne vous conseille pas de les utiliser sur ForumActif. L'éditeur JavaScript du panneau d'aministration ne les reconnaît toujours pas – ou juste parfois, dans certains cas, les jours de pleine lune en juin. La syntaxe traditionnelle que j'ai présentée plus haut, avec le mot-clef `function` fonctionne très bien.
+Maintenant que vous avez une idée de ce à quoi les fonctions fléchées ressemblent, la prochaine fois que vous en croiserez ailleurs vous saurez reconnaître qu'il s'agit simplement d'une fonction un peu plus flexible dans son écriture. Elle possède d'autres particularités et limitations, mais je ne vous conseille pas de les utiliser sur ForumActif. L'éditeur JavaScript du panneau d'aministration ne les reconnaît toujours pas – ou juste parfois, dans certains cas, les jours de pleine lune en juin. 
+
+La syntaxe traditionnelle que j'ai présenté plus haut, avec le mot-clef `function` fonctionne très bien.
+```js
+var result = numbers.map(function(number) {
+  return number * number;
+});
+console.log(result);
+```
 
 ### Reconnaître les fonctions
 
