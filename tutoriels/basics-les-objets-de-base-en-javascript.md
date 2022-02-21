@@ -70,13 +70,9 @@ function square(number) {
   // écrit 81 dans la console : la fonction est exécutée comme une valeur et non comme une fonction, grâce au mot-clef "return"
   ```
 
-### Reconnaître les fonctions
-
-Les fonctions (ou les méthodes lorsqu'il s'agit d'un objet) sont présentes partout et faciles à reconnaître : si vous voyez des parenthèses quelque part et qu'il ne s'agit pas d'une expression mathématique comme `(a + b) * 2`, il est question d'une fonction. Par exemple, l'objet ``console`` que nous avons utilisé plus tôt et qui permet d'écrire dans la console du navigateur possède différentes méthodes (qui sont des fonctions) : `console.log('héhé')` ou `console.error('hoho')`. Vous voyez les parenthèses ? Une fonction est appelée. C'est pareil pour `"SALUT".toLowerCase()` qui permet de mettre une chaîne de caractère en minuscules ; parenthèses -> fonction. 
-  
 ### Fonctions anonymes
 
-Une fonction anonyme est une fonction sans nom (ou sans identifiant). Elle peut être déclarée dans une variable ou dans l'argument d'une autre fonction, puis exécutée plus tard en appelant soit la variable, soit l'argument.
+Une fonction anonyme est une fonction sans nom (ou sans identifiant). Elle peut être déclarée dans une variable ou dans l'argument d'une autre fonction, puis exécutée plus tard en appelant soit la variable dans laquelle elle a été déclarée, soit l'argument.
 ```js
 var age = function(num) {
   console.log(num);
@@ -85,9 +81,26 @@ var age = function(num) {
 
 age(319);
 ```
-
-
+  
 ### Nouvelle syntaxe des fonctions
+Avec l'édition 6 d'ECMAScript (abrégé ES6 – qui est l'ensemble des normes et des standards d'écriture du langage), un nouveau type de fonctione est introduit : les fonctions fléchées (arrow functions). Dans vos recherches ou vos apprentissages, vous serez sûrement amené à en croiser quelques-unes, elles ressemble à :
+```js
+// Fonction anonyme traditionnelle
+function (a){
+  return a + 100;
+}
+
+// Fonction anonyme fléchée
+(a) => {
+  return a + 100;
+}
+```
+
+++En soi, elles sont fantastiques ; par contre, ce petit cours étant adressé aux développeurs débutants sur ForumActif, je ne vois pas l'utilité de les aborder plus en profondeur parce que, malheureusement, la gestion des scripts de notre plateforme ne permet pas de les utiliser.++
+
+### Reconnaître les fonctions
+
+Les fonctions (ou les méthodes lorsqu'il s'agit d'un objet) sont présentes partout et faciles à reconnaître : si vous voyez des parenthèses quelque part et qu'il ne s'agit pas d'une expression mathématique comme `(a + b) * 2`, il est question d'une fonction. Par exemple, l'objet ``console`` que nous avons utilisé plus tôt et qui permet d'écrire dans la console du navigateur possède différentes méthodes (qui sont des fonctions) : `console.log('héhé')` ou `console.error('hoho')`. Vous voyez les parenthèses ? Une fonction est appelée. C'est pareil pour `"SALUT".toLowerCase()` qui permet de mettre une chaîne de caractère en minuscules ; parenthèses -> fonction. 
 
 ## Tableaux
 Les tableaux sont des objets[^2] semblables à des listes dont le prototype (comprendre : fonctions héritées/innées) possède des méthodes qui permettent de parcourir et de modifier le tableau.
