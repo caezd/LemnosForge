@@ -43,20 +43,12 @@ Il existe trois types de déclarations de variable en JavaScript et chacune d'el
   // si on essaie de changer sa valeur, on aura une erreur qui ressemble à
   // TypeError: invalid assignment to const 'username'
   ```
- 
-## Valeurs
-
-Maintenant qu'on sait qu'une variable sert à stocker une *valeur*, je pense important d'expliquer en détails « qu'est-ce qu'une valeur au juste ». Pour ça, je vais laisser @alioukahere sur [Kaherecode.com - Apprendre les types de données](https://www.kaherecode.com/tutorial/apprendre-javascript-variables-et-types-de-donnees#:~:text=Le%20Javascript%20dispose%20actuellement%20de,plusieurs%20variables%20de%20type%20diff%C3%A9rents).) prendre la relève. 
-ce que j'entends en JavaScript, ainsi que mentionner les 7 différents types qui existent.
-En JavaScript, il existe 7 types de valeurs différents. Chaque valeur qu’on va pouvoir créer et manipuler en JavaScript va obligatoirement appartenir à l’un de ces types. Ces types sont les suivants :
-- String ou « chaine de caractères » en français ;
-- Number ou « nombre » en français ;
-- Boolean ou « booléen » en français ;
-- Null ou « nul / vide » en français;
-- Undefined ou « indéfini » en français ;
-- Symbol ou « symbole » en français ;
-- Object ou « objet » en français ;
-
+<details>
+  <summary>### Types de données/valeurs</summary>
+  
+  Maintenant qu'on sait qu'une variable sert à stocker des données, je pense important d'expliquer en détails « quelles types de données, au juste ». Pour ça, je vais laisser @alioukahere sur [Kaherecode.com - Apprendre les types de données](https://www.kaherecode.com/tutorial/apprendre-javascript-variables-et-types-de-donnees#:~:text=Le%20Javascript%20dispose%20actuellement%20de,plusieurs%20variables%20de%20type%20diff%C3%A9rents) prendre la relève et vous les expliquer une à une. 
+  
+</details>
 
 ## Fonctions
 
