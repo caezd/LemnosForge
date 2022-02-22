@@ -44,7 +44,7 @@ Il existe trois types de déclarations de variable en JavaScript et chacune d'el
   // TypeError: invalid assignment to const 'username'
   ```
 <details>
-  <summary>### Types de données/valeurs</summary>
+  <summary>Types de données/valeurs</summary>
   
   Maintenant qu'on sait qu'une variable sert à stocker des données, je pense important d'expliquer en détails « quelles types de données, au juste ». Pour ça, je vais laisser @alioukahere sur [Kaherecode.com - Apprendre les types de données](https://www.kaherecode.com/tutorial/apprendre-javascript-variables-et-types-de-donnees#:~:text=Le%20Javascript%20dispose%20actuellement%20de,plusieurs%20variables%20de%20type%20diff%C3%A9rents) prendre la relève et vous les expliquer une à une. 
   
