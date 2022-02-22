@@ -46,7 +46,7 @@ Il existe trois types de déclarations de variable en JavaScript et chacune d'el
 <details>
   <summary>Types de données/valeurs</summary>
   
-  Maintenant que le concept d'une variable est plus clair et qu'on sait qu'elles servent à "stocker" des informations sous la forme de données, je vous conseille fortement de prendre le temps de lire [cet article par @alioukahere](https://www.kaherecode.com/tutorial/apprendre-javascript-variables-et-types-de-donnees#:~:text=Le%20Javascript%20dispose%20actuellement%20de,plusieurs%20variables%20de%20type%20diff%C3%A9rents) qui vous expliquera plus précisement quelles sonts les valeurs disponibles en JavaScript et quels types de données il est possible de manipuler.  
+  Maintenant que le concept d'une variable est un peu plus clair et qu'on sait qu'elles servent à "stocker" des informations sous la forme de données, je conseille fortement de prendre quelques minutes pour lire [cet article par @alioukahere](https://www.kaherecode.com/tutorial/apprendre-javascript-variables-et-types-de-donnees#:~:text=Le%20Javascript%20dispose%20actuellement%20de,plusieurs%20variables%20de%20type%20diff%C3%A9rents) qui vous expliquera plus précisement quelles sonts les valeurs disponibles en JavaScript et quels types de données il est possible de manipuler et d'attribuer à des variables.  
 </details>
 
 ## Fonctions
