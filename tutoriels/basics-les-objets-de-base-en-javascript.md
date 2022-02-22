@@ -1,4 +1,4 @@
-Dans ce premier petit cours, nous prendrons quelques minutes pour comprendre les bases de la syntaxe de JavaScript.
+Voyez cet article comme un aide mémoire, ou un petit cours sur les objets de base et leur syntaxe en JavaScript.
 
 ## Variables
 
