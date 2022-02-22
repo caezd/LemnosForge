@@ -150,15 +150,38 @@ console.log(result);
 
 Les fonctions (ou les méthodes lorsqu'il s'agit d'un objet) sont présentes partout et faciles à reconnaître : si vous voyez des parenthèses quelque part et qu'il ne s'agit pas d'une expression mathématique comme `(a + b) * 2`, il est question d'une fonction exécutée. Par exemple, l'objet ``console`` que nous avons utilisé plus tôt et qui permet d'écrire dans la console du navigateur possède différentes méthodes (qui sont des fonctions) : `console.log('héhé')` ou `console.error('hoho')`. Vous voyez les parenthèses ? Une méthode est exécutée. C'est pareil pour `"SALUT".toLowerCase()` qui permet de mettre une chaîne de caractère en minuscules ; parenthèses -> fonction/méthode. 
 
-## Tableaux
-Les tableaux sont des objets[^2] semblables à des listes dont le prototype (comprendre : fonctions héritées/innées) possède des méthodes qui permettent de parcourir et de modifier le tableau.
-
 ## Objets
-Un objet est un amalgame de données et/ou de fonctionnalités associées dans un même corps. Celles-ci consistent généralement en plusieurs variables et fonctions (respectivement appelées proprétés et méthodes lorsqu'elles font partie d'un objet).
+Un objet est un amalgame de données et/ou de fonctionnalités associées dans un même corps. Celles-ci consistent généralement en plusieurs variables et fonctions (respectivement appelées propriétés et méthodes lorsqu'elles font partie d'un objet) qui peuvent tout être appelées depuis l'identifiant de l'objet.
+
+Généralement, un objet se déclare dans une variable (ou peut être passé dans un argement), comme ceci :
+```js
+var me = {};
+
+console.log(me);
+
+// devrait normalement écrire "[object Object]" dans la console
+```
+
+Dans cet exemple, l'objet est vide, mais nous pouvons lui ajouter plusieurs propriétés de différents types (string, number, etc.). Pour ce faire, il faut suivre un formatage précis et séparer chaque nouvelle propriété/méthode à l'aide d'une virgule :
 
 ```js
-var profil = {}
+var me = {
+  name: 'Monomer',
+  age: 319,
+  gender: 'unknown',
+  sayHi: function() {
+    alert("Salut ! Je m'appelle " + this.name + ".")
+  }
+}
 ```
+> Faites attention, dans la fonction `alert` j'ai préféré utiliser des guillemets doubles parce que j'utilise une apostrophe. Les chaines de caractères ne sont pas assez intelligentes pour comprendre d'elles-même lorsqu'elles s'ouvrent et se terminent ; si j'avais écrit mon message entre apostrophes, j'aurais utilisé une barre oblique inversée (ou backslash) `alert('Salut ! Je m\'appelle " + this.name + '.')` juste avant l'aspotrophe, à l'intérieur de ma chaîne, pour "échapper" le caractère et faire en sorte qu'il soit interprété comme faisant partie du texte.
+{.info}
+
+## Tableaux
+Les tableaux (ou de l'anglais *arrays*), est un objet[^2] qui ressemble à une liste et qui permet de stocker proprement une série de valeurs sous un seul nom de variable. En général, ils travaillent de consort avec les boucles et les itérateurs
+ou les boucles)
+
+
 
 ### Fonctions anonymes
 
