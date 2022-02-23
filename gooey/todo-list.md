@@ -10,9 +10,11 @@
 - [ ] Onglet Plugins
 - [ ] Onglet Commandes (genre de mini résumé + CTA vers la FAQ ?)
 
-## Pour les sujets
-- [ ] Styliser les commentaires avec giscus
-  - [ ] Travailler l'explication des commentaires avec github + justification à l'aide des issues
+## Liste des sujets
 - [ ] Faire le template des recherches par sujets/messages ?
 - [ ] Transformer en blogs ?
 - [ ] Vérifier la pagination
+
+## Sujets
+- [ ] Styliser les commentaires avec giscus
+  - [ ] Travailler l'explication des commentaires avec github + justification à l'aide des issues
