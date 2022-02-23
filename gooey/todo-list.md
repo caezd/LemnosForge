@@ -1,4 +1,4 @@
-## Pour l'index
+## Index
 
 - [ ] Réviser docSlider.js et utiliser magicScroll.js à la place (pour les animations)
   - [ ] Améliorer le temps de chargement sur les pages 
@@ -6,9 +6,13 @@
 - [ ] Ajouter le bloc d'infos pour les projets
 - [ ] Terminer les informations du footer + à propos
 
+## Catégories/Forums
+- [ ] Onglet Plugins
+- [ ] Onglet Commandes (genre de mini résumé + CTA vers la FAQ ?)
+
 ## Pour les sujets
 - [ ] Styliser les commentaires avec giscus
   - [ ] Travailler l'explication des commentaires avec github + justification à l'aide des issues
 - [ ] Faire le template des recherches par sujets/messages ?
 - [ ] Transformer en blogs ?
-- [ ] 
+- [ ] Vérifier la pagination
