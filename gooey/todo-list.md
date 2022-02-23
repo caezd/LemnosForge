@@ -1,7 +1,7 @@
 ## Pour l'index
 
-- [x] Réviser docSlider.js et utiliser magicScroll.js à la place (pour les animations)
-- [x] Modifier
-- [x] test
+1. [x] Réviser docSlider.js et utiliser magicScroll.js à la place (pour les animations)
+2. [x] Modifier
+3. [x] test
 
 ## Pour les sujets
