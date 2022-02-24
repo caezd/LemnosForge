@@ -1,5 +1,4 @@
 ## Index
-
 - [ ] Réviser docSlider.js et utiliser magicScroll.js à la place (pour les animations)
   - [ ] Améliorer le temps de chargement sur les pages 
 - [ ] Modifier la hauteur des différentes sections de l'index + footer
