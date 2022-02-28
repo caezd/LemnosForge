@@ -17,3 +17,8 @@
 ## Sujets
 - [ ] Styliser les commentaires avec giscus
   - [ ] Travailler l'explication des commentaires avec github + justification à l'aide des issues
+
+## Finitions
+- [ ] Affichage du profil (très simple, très "avatar arrondi + pseudo || ou redirection même vu que je m'en fou)
+- [ ] Poster/Éditer un sujet, au moins un minimum pour que ce soit agréable pour moi
+- [ ] Messages/Alertes et cie (et formulaire de connexion).
