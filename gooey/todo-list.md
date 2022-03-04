@@ -6,6 +6,9 @@
 - [ ] Terminer les informations du footer + à propos
 
 ## Catégories/Forums
+- [ ] Onglet Projets
+  - [ ] Terminer la description
+  - [ ] Terminer les infos 
 - [ ] Onglet Plugins
 - [ ] Onglet Commandes (genre de mini résumé + CTA vers la FAQ ?)
 
