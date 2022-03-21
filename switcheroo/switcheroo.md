@@ -14,7 +14,7 @@ Switcheroo nécessite quelques modifications de votre part avant d'être install
    
    [^1]: ++Veuillez noter que la barre de navigation doit être rajoutée manuellement pour tous les forums en version ModernBB, puisque celle-ci est générée dynamiquement en Javascript. La variable `{GENERATED_NAV_BAR}` existe encore même si elle n'est pas dans le template de base.++
 
-{.withCheck}
+[.withCheck]
 
 ## Installation
 
