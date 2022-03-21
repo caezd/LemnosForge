@@ -5,6 +5,13 @@
 - [ ] Ajouter le bloc d'infos pour les projets
 - [ ] Terminer les informations du footer + à propos
 
+## Explications
+- [ ] Introduction
+- [ ] Bienséance
+- [ ] Compte/Subscription
+- [ ] Copyright
+- [ ] Commissions
+
 ## Catégories/Forums
 - [ ] Onglet Projets
   - [ ] Terminer la description
