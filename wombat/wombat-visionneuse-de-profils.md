@@ -7,7 +7,7 @@ Wombat est une visionneuse de profil qui permet de charger et d'ouvrir le profil
 Wombat ne fonctionne pas avec l'affichage des profils avancés de ForumActif.
 
 * Pour les désactiver, il faudra passer par votre panneau d'administration et naviguer jusqu'aux options générales des profils : `Utilisateurs & Groupes > Profils > Options générales` et [désactiver les profils avancés](https://i.imgur.com/uqvPrAf.png).
-{.withCheck}
+[.withCheck]
 
 ## Installation
 
