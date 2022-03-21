@@ -1,21 +1,21 @@
 ## Index
-- [ ] Réviser docSlider.js et utiliser magicScroll.js à la place (pour les animations)
+- [x] Réviser docSlider.js et utiliser magicScroll.js à la place (pour les animations)
   - [ ] Améliorer le temps de chargement sur les pages 
-- [ ] Modifier la hauteur des différentes sections de l'index + footer
-- [ ] Ajouter le bloc d'infos pour les projets
-- [ ] Terminer les informations du footer + à propos
+- [x] Modifier la hauteur des différentes sections de l'index + footer
+- [x] Ajouter le bloc d'infos pour les projets
+- [x] Terminer les informations du footer + à propos
 
 ## Explications
 - [ ] Introduction
 - [ ] Bienséance
 - [ ] Compte/Subscription
-- [ ] Copyright
+- [x] Copyright
 - [ ] Commissions
 
 ## Catégories/Forums
 - [ ] Onglet Projets
   - [ ] Terminer la description
-  - [ ] Terminer les infos 
+  - [x] Terminer les infos 
 - [ ] Onglet Plugins
 - [ ] Onglet Commandes (genre de mini résumé + CTA vers la FAQ ?)
 
