@@ -22,7 +22,7 @@ Le plugin en lui-même est très simple à installer. Il comprend deux fichiers 
 
 Ils s'installent directement dans le template `général/overall_footer_end`, juste avant la fermeture de la balise `</body>`.
 
-``` html
+```html{1,4-6}
 <!-- Barre principale du plugin, dans laquelle la magie s'opère. Certaines valeurs peuvent être modifiées. -->
 <nav id="switcheroo" class="switcheroo" direction="vertical" position="top"></nav>
 
