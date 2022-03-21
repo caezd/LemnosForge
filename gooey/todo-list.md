@@ -14,8 +14,9 @@
 
 ## Liste des sujets
 - [ ] Faire le template des recherches par sujets/messages ?
-- [ ] Transformer en blogs ?
+- [ ] Transformer les astuces/tutoriels en blogs et passer par l'éditeur de FA ?
 - [ ] Vérifier la pagination
+- [ ] CodeBlock color scheme (light/dark) -> demander à Kim ?
 
 ## Sujets
 - [ ] Styliser les commentaires avec giscus
