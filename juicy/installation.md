@@ -18,11 +18,7 @@ Juicy n'est pas très intelligent. Comme la plupart des Template Engine côté c
 
 ## Installation
 
-Pour installer la formule "de base" de Wombat, il vous faudra tout simplement modifier les templates `général/overall_footer_end` et `profil/profile_view_body`, ainsi qu'ajouter un bout de CSS.
-
-### HTML
-
-Nous commencerons par isntaller le script en <u>remplacant absoluement tout le corps</u> du template `profile_view_body`, situé dans la catégorie **Profil** :
+Pour l'installation, il vous faudra simplement <u>remplacer absoluement tout le corps</u> du template `profile_view_body`, situé dans la catégorie **Profil** par ceci ce code :
 
 ```html
 <script type="text/template" id="juicy">
