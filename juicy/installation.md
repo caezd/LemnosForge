@@ -92,7 +92,7 @@ Pour l'installation, il vous faudra simplement <u>remplacer absoluement tout le 
 
 
 <!-- Juicy.js -->
-<script src="http://127.0.0.1:8080/juicy.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/caezd/juicy@latest/dist/juicy.js"></script>
 
 <!-- Initialisation du plugin -->
 <script>
